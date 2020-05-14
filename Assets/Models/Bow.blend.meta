@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: 8e0053e4b933781469e5dc74ef7a1601
+timeCreated: 1541556495
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: Bone
+    100006: Bone_001
+    100008: Bone_002
+    100010: Bone_003
+    100012: Bone_004
+    100014: Bone_005
+    100016: Bone_006
+    100018: Bone_007
+    100020: Bone_008
+    100022: Bone_009
+    100024: Bone_010
+    100026: Bone_011
+    100028: Bone_012
+    100030: Bone_013
+    100032: Bone_014
+    100034: Bone_015
+    100036: Bone_016
+    100038: Bone_017
+    100040: Bone_018
+    100042: Bow
+    100044: main
+    100046: string
+    100048: top_ik
+    100050: bottom_ik
+    100052: top_ik_001
+    100054: top_ik_002
+    100056: top_limit
+    100058: top_limit_001
+    400000: //RootNode
+    400002: Armature
+    400004: Bone
+    400006: Bone_001
+    400008: Bone_002
+    400010: Bone_003
+    400012: Bone_004
+    400014: Bone_005
+    400016: Bone_006
+    400018: Bone_007
+    400020: Bone_008
+    400022: Bone_009
+    400024: Bone_010
+    400026: Bone_011
+    400028: Bone_012
+    400030: Bone_013
+    400032: Bone_014
+    400034: Bone_015
+    400036: Bone_016
+    400038: Bone_017
+    400040: Bone_018
+    400042: Bow
+    400044: main
+    400046: string
+    400048: top_ik
+    400050: bottom_ik
+    400052: top_ik_001
+    400054: top_ik_002
+    400056: top_limit
+    400058: top_limit_001
+    2300000: //RootNode
+    2300002: Bow
+    3300000: //RootNode
+    3300002: Bow
+    4300000: Bow
+    7400000: Default Take
+    7400002: ArmatureAction
+    7400004: BowFire
+    7400006: BowFired
+    7400008: BowPullBack
+    7400010: BowIdle
+    9500000: //RootNode
+    13700000: Bow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
