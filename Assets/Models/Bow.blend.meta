@@ -1,87 +1,251 @@
 fileFormatVersion: 2
 guid: 8e0053e4b933781469e5dc74ef7a1601
-timeCreated: 1541556495
-licenseType: Free
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Armature
-    100004: Bone
-    100006: Bone_001
-    100008: Bone_002
-    100010: Bone_003
-    100012: Bone_004
-    100014: Bone_005
-    100016: Bone_006
-    100018: Bone_007
-    100020: Bone_008
-    100022: Bone_009
-    100024: Bone_010
-    100026: Bone_011
-    100028: Bone_012
-    100030: Bone_013
-    100032: Bone_014
-    100034: Bone_015
-    100036: Bone_016
-    100038: Bone_017
-    100040: Bone_018
-    100042: Bow
-    100044: main
-    100046: string
-    100048: top_ik
-    100050: bottom_ik
-    100052: top_ik_001
-    100054: top_ik_002
-    100056: top_limit
-    100058: top_limit_001
-    400000: //RootNode
-    400002: Armature
-    400004: Bone
-    400006: Bone_001
-    400008: Bone_002
-    400010: Bone_003
-    400012: Bone_004
-    400014: Bone_005
-    400016: Bone_006
-    400018: Bone_007
-    400020: Bone_008
-    400022: Bone_009
-    400024: Bone_010
-    400026: Bone_011
-    400028: Bone_012
-    400030: Bone_013
-    400032: Bone_014
-    400034: Bone_015
-    400036: Bone_016
-    400038: Bone_017
-    400040: Bone_018
-    400042: Bow
-    400044: main
-    400046: string
-    400048: top_ik
-    400050: bottom_ik
-    400052: top_ik_001
-    400054: top_ik_002
-    400056: top_limit
-    400058: top_limit_001
-    2300000: //RootNode
-    2300002: Bow
-    3300000: //RootNode
-    3300002: Bow
-    4300000: Bow
-    7400000: Default Take
-    7400002: ArmatureAction
-    7400004: BowFire
-    7400006: BowFired
-    7400008: BowPullBack
-    7400010: BowIdle
-    9500000: //RootNode
-    13700000: Bow
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Armature
+  - first:
+      1: 100004
+    second: Bone
+  - first:
+      1: 100006
+    second: Bone_001
+  - first:
+      1: 100008
+    second: Bone_002
+  - first:
+      1: 100010
+    second: Bone_003
+  - first:
+      1: 100012
+    second: Bone_004
+  - first:
+      1: 100014
+    second: Bone_005
+  - first:
+      1: 100016
+    second: Bone_006
+  - first:
+      1: 100018
+    second: Bone_007
+  - first:
+      1: 100020
+    second: Bone_008
+  - first:
+      1: 100022
+    second: Bone_009
+  - first:
+      1: 100024
+    second: Bone_010
+  - first:
+      1: 100026
+    second: Bone_011
+  - first:
+      1: 100028
+    second: Bone_012
+  - first:
+      1: 100030
+    second: Bone_013
+  - first:
+      1: 100032
+    second: Bone_014
+  - first:
+      1: 100034
+    second: Bone_015
+  - first:
+      1: 100036
+    second: Bone_016
+  - first:
+      1: 100038
+    second: Bone_017
+  - first:
+      1: 100040
+    second: Bone_018
+  - first:
+      1: 100042
+    second: Bow
+  - first:
+      1: 100044
+    second: main
+  - first:
+      1: 100046
+    second: string
+  - first:
+      1: 100048
+    second: top_ik
+  - first:
+      1: 100050
+    second: bottom_ik
+  - first:
+      1: 100052
+    second: top_ik_001
+  - first:
+      1: 100054
+    second: top_ik_002
+  - first:
+      1: 100056
+    second: top_limit
+  - first:
+      1: 100058
+    second: top_limit_001
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Armature
+  - first:
+      4: 400004
+    second: Bone
+  - first:
+      4: 400006
+    second: Bone_001
+  - first:
+      4: 400008
+    second: Bone_002
+  - first:
+      4: 400010
+    second: Bone_003
+  - first:
+      4: 400012
+    second: Bone_004
+  - first:
+      4: 400014
+    second: Bone_005
+  - first:
+      4: 400016
+    second: Bone_006
+  - first:
+      4: 400018
+    second: Bone_007
+  - first:
+      4: 400020
+    second: Bone_008
+  - first:
+      4: 400022
+    second: Bone_009
+  - first:
+      4: 400024
+    second: Bone_010
+  - first:
+      4: 400026
+    second: Bone_011
+  - first:
+      4: 400028
+    second: Bone_012
+  - first:
+      4: 400030
+    second: Bone_013
+  - first:
+      4: 400032
+    second: Bone_014
+  - first:
+      4: 400034
+    second: Bone_015
+  - first:
+      4: 400036
+    second: Bone_016
+  - first:
+      4: 400038
+    second: Bone_017
+  - first:
+      4: 400040
+    second: Bone_018
+  - first:
+      4: 400042
+    second: Bow
+  - first:
+      4: 400044
+    second: main
+  - first:
+      4: 400046
+    second: string
+  - first:
+      4: 400048
+    second: top_ik
+  - first:
+      4: 400050
+    second: bottom_ik
+  - first:
+      4: 400052
+    second: top_ik_001
+  - first:
+      4: 400054
+    second: top_ik_002
+  - first:
+      4: 400056
+    second: top_limit
+  - first:
+      4: 400058
+    second: top_limit_001
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      23: 2300002
+    second: Bow
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      33: 3300002
+    second: Bow
+  - first:
+      43: 4300000
+    second: Bow
+  - first:
+      74: 7400000
+    second: Default Take
+  - first:
+      74: 7400002
+    second: ArmatureAction
+  - first:
+      74: 7400004
+    second: BowFire
+  - first:
+      74: 7400006
+    second: BowFired
+  - first:
+      74: 7400008
+    second: BowPullBack
+  - first:
+      74: 7400010
+    second: BowIdle
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Bow
+  - first:
+      74: -623603649343465320
+    second: Scene
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BowHandle
+    second: {fileID: 2100000, guid: 1118c62518455044e9e190ef16978733, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BowString
+    second: {fileID: 2100000, guid: 7e40185927382cb4c87245b929c03f6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BowWood
+    second: {fileID: 2100000, guid: cb4811b10f2d43641925188940a3bad0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -94,12 +258,15 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -107,13 +274,23 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -123,10 +300,15 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -136,8 +318,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

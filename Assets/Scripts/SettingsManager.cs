@@ -67,7 +67,10 @@ public class SettingsManager : MonoBehaviour {
 		DisplayResolutionOptions();
 
 		if(!PlayerPrefs.HasKey("Settings.FOV")) {
-			PlayerPrefs.SetFloat("Settings.FOV", playerCamera.fieldOfView);
+			if(playerCamera != null)
+			{
+				PlayerPrefs.SetFloat("Settings.FOV", playerCamera.fieldOfView);
+			}
 		}
 		if(!PlayerPrefs.HasKey("Settings.PostProcessingEnabled")) {
 			PlayerPrefs.SetInt("Settings.PostProcessingEnabled", 1);
@@ -85,7 +88,7 @@ public class SettingsManager : MonoBehaviour {
 			PlayerPrefs.SetInt("Settings.Resolution", resolutions.Length - 1);
 		}
 		if(!PlayerPrefs.HasKey("Settings.MouseSensitivity")) {
-			PlayerPrefs.SetFloat("Settings.MouseSensitivity", player.mouseSensitivityX);
+			PlayerPrefs.SetFloat("Settings.MouseSensitivity", 3.5f);
 		}
 
 		UpdateUI();
